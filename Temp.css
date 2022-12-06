@@ -1,0 +1,58 @@
+#convert {
+    background-color: #ececec;
+    text-align: center;
+  }
+  #clear {
+    background-color: #e9f0f0;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .background-image{
+    background-image: url("Jordan_WadiRum_Desert_107_SS.jpg");
+    height: 100vh;
+    background-size: cover;
+  }
+  #convert:hover {
+    background-color: #131212;
+  }
+  #clear:hover {
+    background-color: #050505;
+  }
+  h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #30546e;
+    text-align:center
+    
+  }
+  input {
+    display: table-row-group;
+    padding: 15px 15px;
+    border-radius: 25px;
+    font-size: 1em;
+    color: #050404;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+  }
+  ::-webkit-input-placeholder {
+     color: rgb(58, 51, 155);
+  }
+  :-moz-placeholder { 
+     color: rgb(245, 42, 7);  
+  }
+  ::-moz-placeholder {  
+     color: rgb(10, 232, 240);  
+  }
+  :-ms-input-placeholder {  
+     color: rgb(199, 20, 20);  
+  }
+  button {
+    padding: 10px 10px ;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    color: #c92525;
+    cursor: pointer;
+  }
